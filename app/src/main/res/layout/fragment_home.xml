@@ -11,23 +11,17 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/blue">
-
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="@dimen/barra"
-                android:layout_alignParentTop="true"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="-4dp"
-                android:padding="@dimen/cardLayoutMargin"
-                android:src="@drawable/ic_fixcar__1_" />
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior">
+
+            <fragment
+                android:id="@+id/fragContent"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bnvMenu"
+                app:navGraph="@navigation/nav_graph"
+                app:defaultNavHost="true"/>
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bnvMenu"

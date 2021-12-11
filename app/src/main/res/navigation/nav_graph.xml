@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/boughtFragment"
+        android:name="com.edu.fixcar.view.ui.fragments.BoughtFragment"
+        android:label="fragment_bought"
+        tools:layout="@layout/fragment_bought" >
+        <action
+            android:id="@+id/action_boughtFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.edu.fixcar.view.ui.fragments.AdminFragment"
+        android:label="fragment_admin"
+        tools:layout="@layout/fragment_admin" >
+        <action
+            android:id="@+id/action_adminFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.edu.fixcar.view.ui.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+    <dialog
+        android:id="@+id/homeDetailFragmentDialog"
+        android:name="com.edu.fixcar.view.ui.fragments.HomeDetailDialogFragment"
+        android:label="HomeDetailFragmentDialog"
+        tools:layout="@layout/fragment_home_detail_dialog">
+        <action
+            android:id="@+id/action_homeDetailFragmentDialog_to_boughtFragment"
+            app:destination="@id/boughtFragment" />
+    </dialog>
+
+
+</navigation>

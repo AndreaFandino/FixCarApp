@@ -5,6 +5,7 @@ import android.text.Editable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.edu.fixcar.R
 import com.edu.fixcar.view.ui.activities.NavigationHost
@@ -29,7 +30,7 @@ class LoginFragment : Fragment() {
                 // Clear the error.
                 password_text_input.error = null
                 //Navigate to the next Fragment
-                (activity as NavigationHost).navigateTo(HomeFragment(),false)
+                (activity as NavigationHost).navigateTo(AppCompatActivity(),false)
             }
         })
 

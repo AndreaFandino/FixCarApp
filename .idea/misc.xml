@@ -9,12 +9,15 @@
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_admin.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_admin_detail_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_bought.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_coments.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_comments_detail_dialog.xml" value="0.22" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_home_detail_dialog.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_login.xml" value="0.12" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_order.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_order_detail_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_search.xml" value="0.22" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/fragment_start.xml" value="0.1" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/item_comments.xml" value="0.16" />
         <entry key="..\:/Users/Alice/AndroidStudioProjects/FixCar/app/src/main/res/layout/item_product.xml" value="0.1" />

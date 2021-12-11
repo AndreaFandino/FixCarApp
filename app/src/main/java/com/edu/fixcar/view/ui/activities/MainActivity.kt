@@ -2,7 +2,6 @@ package com.edu.fixcar.view.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
 import com.edu.fixcar.R
 import com.edu.fixcar.view.ui.fragments.LoginFragment
 
@@ -19,7 +18,7 @@ class MainActivity : AppCompatActivity(), NavigationHost {
         }
     }
 
-    override fun navigateTo(fragment: Fragment, addToBackstack: Boolean) {
+    override fun navigateTo(fragment: AppCompatActivity, addToBackstack: Boolean) {
         val transaction = supportFragmentManager
             .beginTransaction()
             .replace(R.id.container, fragment)
