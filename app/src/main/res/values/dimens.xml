@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="cardLayoutMargin">10dp</dimen>
+    <dimen name="textoDescripcion">20dp</dimen>
+    <dimen name="barra">100dp</dimen>
+    <dimen name="botones">100dp</dimen>
+    <dimen name="itemCommentsComment">6dp</dimen>
+    <dimen name="itemCommentsUser">12dp</dimen>
+    <dimen name="heightImagenProduct">100dp</dimen>
+    <dimen name="textSizeContent">15dp</dimen>
+    <dimen name="productMargin">10dp</dimen>
+    <dimen name="subText">12dp</dimen>
+    <dimen name="ImagenUser">100dp</dimen>
+</resources>

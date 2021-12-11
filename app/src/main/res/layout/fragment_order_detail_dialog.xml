@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ui.fragments.OrderDetailDialogFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:id="@+id/toolbarProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/cardCornerRadius"
+                    app:cardElevation="@dimen/cardview_default_elevation"
+                    android:layout_margin="@dimen/cardLayoutMargin">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="216dp"
+                            android:layout_height="68dp"
+                            android:text="Combo repuestos 1"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="314dp"
+                            app:srcCompat="@mipmap/repuestos_foreground"/>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="141dp"
+                            android:layout_height="54dp"
+                            android:text="Mazda 323"
+                            android:textSize="24sp"/>
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="140dp"
+                            android:layout_height="67dp"
+                            android:text="2007"
+                            android:textSize="24sp"/>
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="161dp"
+                            android:layout_height="65dp"
+                            android:text="$ 1'785.760"
+                            android:textSize="30sp"/>
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="163dp"
+                            android:layout_height="71dp"
+                            android:backgroundTint="#1F4761"
+                            android:text="Comprar"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</FrameLayout>

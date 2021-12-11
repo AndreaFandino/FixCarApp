@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FixCar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Somos una herramienta enfocada en facilitar la búsqueda de repuestos y piezas para la reparación y la mejora de los vehículos más usados en nuestro país</string>
+    <string name="fixTitle">FixCar</string>
+    <string name="hintComment">Agrega tu comentario aquí</string>
+    <string name="hintName">Nombre</string>
+    <string name="hintAdresse">Dirección</string>
+    <string name="hintPhone">Teléfono</string>
+    <string name="hintMail">Correo</string>
+    <string name="ibSendButton">Guardar cambios</string>
+    <string name="hint_username">usuario@mail.com</string>
+    <string name="hint_password">contraseña</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Registrate</string>
+    <string name="error_password">Su contraseña es incorrecta, recuerde que debe tener mínimo 8 caracteres</string>
+</resources>

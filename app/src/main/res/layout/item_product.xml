@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    android:layout_margin="@dimen/cardLayoutMargin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/heightImagenProduct"
+            android:layout_height="@dimen/heightImagenProduct"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="@dimen/cardLayoutMargin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/gray">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/textSizeContent"
+                android:elegantTextHeight="true"
+                android:textColor="@color/darkBlue"
+                android:layout_marginLeft="@dimen/productMargin"
+                android:layout_marginRight="@dimen/productMargin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$123.456"
+                android:textStyle="bold"
+                android:gravity="fill_horizontal"
+                android:textSize="@dimen/textSizeContent"
+                android:textColor="@color/darkBlue"
+                android:layout_marginLeft="@dimen/productMargin"
+                android:layout_marginRight="@dimen/productMargin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marca"
+                android:gravity="fill_horizontal"
+                android:textSize="@dimen/subText"
+                android:textColor="@color/darkBlue"
+                android:layout_marginLeft="@dimen/productMargin"
+                android:layout_marginRight="@dimen/productMargin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modelo"
+                android:gravity="fill_horizontal"
+                android:textSize="@dimen/subText"
+                android:textColor="@color/darkBlue"
+                android:layout_marginLeft="@dimen/productMargin"
+                android:layout_marginRight="@dimen/productMargin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción"
+                android:gravity="fill_horizontal"
+                android:textSize="@dimen/subText"
+                android:textColor="@color/darkBlue"
+                android:layout_marginLeft="@dimen/productMargin"
+                android:layout_marginRight="@dimen/productMargin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
